@@ -2,3 +2,6 @@ $ docker build -t webserver .
 $ docker run -it --rm -d -p 8080:80 --name web webserver
 $ git clone https://github.com/pmckeetx/docker-nginx.git
 $ docker-compose up
+
+--------useful-links--------
+https://wkrzywiec.medium.com/how-to-run-database-backend-and-frontend-in-a-single-click-with-docker-compose-4bcda66f6de
